@@ -5,7 +5,7 @@ package de.code.talks.spock.example;
  */
 public class DataStore {
 
-    public String save(String user) {
+    public boolean save(String user) {
         throw new RuntimeException("not yet implemented");
     }
 }
