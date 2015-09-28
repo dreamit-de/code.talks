@@ -8,12 +8,12 @@ import spock.lang.Specification
 class FixtureMethodsExampleSpec extends Specification {
 
     def 'first scenario'() {
-        println "FixtureMethods.first scenario"
+        println "FixtureMethodsExampleSpec.first scenario"
         expect: true
     }
 
     def 'second scenario'() {
-        println "FixtureMethods.second scenario"
+        println "FixtureMethodsExampleSpec.second scenario"
         expect: true
     }
 }

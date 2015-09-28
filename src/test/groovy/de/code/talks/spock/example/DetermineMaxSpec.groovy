@@ -7,7 +7,7 @@ import spock.lang.Specification
  */
 class DetermineMaxSpec extends Specification {
 
-    def 'should determine the maximum of two numbers'() {
+    def 'determine the maximum of two numbers'() {
 
         given: 'first number is 5, second number is 3'
 

@@ -7,7 +7,7 @@ import spock.lang.Specification
  */
 class MockExampleSpec extends Specification {
 
-    def 'should register user'() {
+    def 'user will be saved during registration'() {
 
         given: 'user fills in form'
 
