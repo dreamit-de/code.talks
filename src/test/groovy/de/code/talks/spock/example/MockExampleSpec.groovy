@@ -9,7 +9,7 @@ class MockExampleSpec extends Specification {
 
     def 'should register user'() {
 
-        given: 'user fills up form'
+        given: 'user fills in form'
 
         when: 'user registers'
 
