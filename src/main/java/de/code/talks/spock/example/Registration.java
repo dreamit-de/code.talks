@@ -11,6 +11,8 @@ public class Registration {
     private DataStore dataStore;
 
     public void register() {
-        dataStore.save(user);
+        if (!dataStore.save(user)) {
+            throw new RuntimeException("save not successful");
+        }
     }
 }

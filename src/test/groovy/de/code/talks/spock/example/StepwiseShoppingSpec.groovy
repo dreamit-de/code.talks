@@ -19,6 +19,7 @@ class StepwiseShoppingSpec extends Specification {
     def 'checkout requires login or registration'() {
         when: 'the unknown user tries clicks the checkout button'
         then: 'the login/registration dialog is shown'
+        false
     }
 
     def 'user can a register and will be logged in'() {
